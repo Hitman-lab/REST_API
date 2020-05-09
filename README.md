@@ -4,7 +4,7 @@
 
 ## make the request using CURL 
 
-## curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:2000/movies/list-movies
+### curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:2000/movies/list-movies
 
 
 
