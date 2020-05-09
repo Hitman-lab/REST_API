@@ -13,7 +13,6 @@
 
 #### curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:3000/movies/101
 
+> {"id":101,"name":"Fight Club","year":1999,"rating":8.1}
 
-
-
-
+#### curl -X POST --data "name = Toy Story&year = 1995&rating = 8.5" http://localhost:3000/movies
